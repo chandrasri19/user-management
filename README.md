@@ -6,5 +6,5 @@
  4) npm i 
  5) npm start
  6) dummy user login 
-    ##    "email": "eve.holt@reqres.in",
-    ##    "password": "cityslicka"
+      "email": "eve.holt@reqres.in",
+      "password": "cityslicka"
