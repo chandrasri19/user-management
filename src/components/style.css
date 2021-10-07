@@ -1,0 +1,119 @@
+.signUpDiv{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+   }
+   .signUpDiv .form{
+     height: 350px;
+     width: 40%;
+     background-color:white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 5px 4px 10px rgb(0,0,0,60%);
+   }
+
+   .signUpDiv .form .field{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 100%;
+     padding: 10px;
+   }
+   .signUpDiv .form .field label{
+     font-size: 1.3rem;
+     font-family: monospace;
+     width: 20%;
+     height:45px;
+     padding-right: 10px;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+   }
+   .signUpDiv .form .field input{
+     font-size: 1.3rem;
+     font-family: monospace;
+     width: 30%;
+     height:45px;
+     padding-right: 10px;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+   }
+   .buttonsize{
+     font-size: 2rem;
+     font-weight: bold;
+     padding: 15px;
+     border-radius: 22px;
+   }
+   .font-clr{
+     color: white;
+     font-weight: bold;
+     font-size: 2rem;
+     text-align: center;
+   }
+
+   /* //allusers */
+   table, th, td {
+    border: 1px solid black;
+  }
+  table, th, td ,tr{
+    font-size: 1.3rem;
+    padding: 20px;
+  }
+
+  .buttonsize2{
+    font-size: 16px;
+    border-radius: 4px;
+  }
+
+/* //editpage */
+
+  .editpage{
+    height: 100vh;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+   }
+   .editpage .form{
+    
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .editpage .form .field{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 100%;
+     padding: 10px;
+   }
+   .editpage .form .field label{
+     font-size: 1.3rem;
+     font-family: monospace;
+     width: 20%;
+     height:45px;
+     padding-right: 10px;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+   }
+   .editpage .form .field input{
+     font-size: 1.3rem;
+     font-family: monospace;
+     width: 30%;
+     height:45px;
+     padding-right: 10px;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+   }

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900|Open+Sans:300,400,600,700,800|Raleway:100,300,400,500,600,700,900');
+
+body {
+  font-family: 'Nunito', 'Raleway', 'Open Sans', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.NunitoRegular {
+  font-family: 'Nunito';
+  font-weight: 400;
+}
+.NunitoMedium {
+  font-family: 'Nunito';
+  font-weight: 500;
+}
+.NunitoSemibold {
+  font-family: 'Nunito';
+  font-weight: 600;
+}
+.NunitoBold {
+  font-family: 'Nunito';
+  font-weight: 700;
+}
+
+.openSansRegular {
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
+.openSansMedium {
+  font-family: 'Open Sans';
+  font-weight: 500;
+}
+.openSansSemibold {
+  font-family: 'Open Sans';
+  font-weight: 600;
+}
+.openSansBold {
+  font-family: 'Open Sans';
+  font-weight: 700;
+}
+
+.RalewayRegular {
+  font-family: 'Raleway';
+  font-weight: 400;
+}
+.RalewayMedium {
+  font-family: 'Raleway';
+  font-weight: 500;
+}
+.RalewaySemibold {
+  font-family: 'Raleway';
+  font-weight: 600;
+}
+.RalewayBold {
+  font-family: 'Raleway';
+  font-weight: 700;
+}
+
+// @font-face {
+//   font-family: 'Halyard Display Light';
+//   src: url('./Halyard Display/Halyard Display Light.ttf');
+// }
+// @font-face {
+//   font-family: 'Halyard Display SemiBold';
+//   src: url('./Halyard Display/Halyard Display SemiBold.ttf');
+// }
+// @font-face {
+//   font-family: 'Halyard Display Bold';
+//   src: url('./Halyard Display/Halyard Display Bold.ttf');
+// }
+// @font-face {
+//   font-family: 'Halyard Display Medium';
+//   src: url('./Halyard Display/Halyard Display Medium.ttf');
+// }
+
+// @font-face {
+//   font-family: 'Halyard Display Regular';
+//   src: url('./Halyard Display/Halyard Display Regular.ttf');
+// }
+/**********font-Style*******/
+.arialRegular {
+  font-family: Arial, sans-serif;
+  font-variant: normal;
+  font-weight: 400;
+}
+.arialBold {
+  font-family: Arial;
+  font-variant: normal;
+  font-weight: 700;
+}
+.halyardDisplayRegular {
+  font-family: Halyard Display Regular;
+}
+.halyardDisplayBold {
+  font-family: Halyard Display Bold;
+}
+.halyardDisplayMedium {
+  font-family: Halyard Display Medium;
+}
+.halyardDisplaySemibold {
+  font-family: Halyard Display SemiBold;
+}
+.pos-reklative {
+  position: relative;
+}
+.colorWhite {
+  color: #ffffff!important;
+}
+.colorBlack {
+  color: #000000;
+}
+.topSpace {
+  margin-top: 5%;
+}
+.bottomSpace {
+  margin-bottom: 5%;
+}
+.minTopSpace {
+  padding-top: 15px;
+}
+.minBottomSpace {
+  padding-bottom: 15px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  border: unset;
+  outline: unset;
+  cursor: pointer;
+}
+button:hover,
+button:focus,
+button:active {
+  border: unset;
+  outline: unset;
+}
+/*.btn{
+  border: none;
+}*/
+a.linkColor {
+  color: #337ab7;
+  cursor: pointer;
+}
+
+a.linkColor:not([href]) {
+  color: #337ab7;
+  cursor: pointer;
+}
+
+a.linkColor:not([href]):hover {
+  cursor: pointer;
+  color: #23527c;
+  text-decoration: underline;
+}
+
+a.text-success:not([href]):hover {
+  cursor: pointer;
+
+  text-decoration: underline;
+}
+
+a.linkColor:hover,
+a.linkColor:focus {
+  color: #23527c;
+}
+.PageHeaderBackgroud{
+//background: linear-gradient(196deg,cornsilk ,rgba(0,0,0,.6));
+ height:55px;
+ width: 100%;
+}
+.PageHeaderBackgroud h2{
+  font-size: 1.3rem;
+}
+.navBackgroud{
+   background: linear-gradient(326deg, lightslategrey,#000000)!important;
+}
+.logoGradient{
+  text-shadow:-10px -4px 5px rgba(255, 255, 255, 1);//-10px -4px 5px rgba(99, 64, 103, 1);// 11px -7px 11px rgba(99, 193, 103, 1)!important;
+  color: lightyellow!important;
+  font-size: 1.5rem;
+}
