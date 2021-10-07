@@ -1,10 +1,10 @@
 # user-management
 
-## just clone the repository 
-## goto the folder path
-## and then use to following command
-## npm i 
-## npm start
-## dummy user login 
+ 1) just clone the repository 
+ 2) goto the folder path
+ 3) and then use to following command
+ 4) npm i 
+ 5) npm start
+ 6) dummy user login 
     ##    "email": "eve.holt@reqres.in",
     ##    "password": "cityslicka"
